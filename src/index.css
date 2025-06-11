@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-prmColor: #063936;
+    --breakpoint-mini: 480px;
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lmd: 991px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xlg: 1100px;
+    --breakpoint-xls: 1200px;
+    --breakpoint-xl: 1280px;
+}
