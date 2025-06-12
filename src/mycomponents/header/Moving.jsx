@@ -25,14 +25,14 @@ export function Moving() {
         <div className="mt-12 overflow-x-hidden">
             <div ref={boxRef} style={{ transform: `translateX(${scrollX}px)`, }} className="flex w-[120%] gap-4 md:gap-6 translate-x-[-50px]">
                 {imgArr1.map((img, index) => (
-                    <div key={index} className="w-[25%]">
+                    <div key={index} className="min-w-[150px] w-[25%]">
                         <img src={img} alt={`photo-${index}`} className="hover:scale-[.98] transition-all duration-300 cursor-pointer translate-x-[50px] rounded-[8px] w-full h-full lg:h-[400px]" />
                     </div>
                 ))}
             </div>
             <div ref={boxRef} style={{ transform: `translateX(${scrollX1}px)`, }} className="w-[120%] flex mt-4 md:mt-6 gap-4 md:gap-6 translate-x-[-80px] mini:translate-x-[-100px] md:translate-x-[-200px]">
                 {imgArr2.reverse().map((img, index) => (
-                    <div key={index} className="w-[25%]">
+                    <div key={index} className="min-w-[150px] w-[25%]">
                         <img src={img} alt={`photo-${index}`} className="hover:scale-[.98] transition-all duration-300 cursor-pointer rounded-[8px] w-full h-full lg:h-[400px]" />
                     </div>
                 ))}
