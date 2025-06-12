@@ -16,8 +16,8 @@ export function Clients() {
     }, []);
 
     return (
-        <section id="clients" ref={saRef} style={{ transform: 'translateY(50px)' }} className="bg-white pt-10 md:pt-[80px] opacity-0 pb-8 transition-all duration-600 ease-in-out">
-            <h2 className="text-center text-[#063936] mb-8 uppercase text-[24px] mini:text-[28px] md:text-[32px] font-[900]">Our Clients</h2>
+        <section id="clients" ref={saRef} style={{ transform: 'translateY(50px)' }} className="max-w-[1240px] mx-auto max-mini:px-4 px-6 pt-10 md:pt-[80px] opacity-0 pb-8 transition-all duration-600 ease-in-out">
+            <h2 className="text-center text-[#063936] mb-8 uppercase text-[24px] mini:text-[28px] md:text-[40px] font-[900]">Our Clients</h2>
             <Carousel />
         </section>
     )

@@ -18,8 +18,8 @@ export function Welcome() {
 
     return (
         <section ref={saRef}
-            style={{ transform: 'translateY(50px)' }} className="bg-white pb-8 pt-10 opacity-0 md:pt-[80px] transition-all duration-600 ease-in-out">
-            <h2 className="text-center text-[#063936] uppercase text-[24px] mini:text-[28px] md:text-[32px] font-[900]">Welcome to the GAIA</h2>
+            style={{ transform: 'translateY(50px)' }} className="max-w-[1240px] mx-auto max-mini:px-4 px-6 pb-8 pt-10 opacity-0 md:pt-[80px] transition-all duration-600 ease-in-out">
+            <h2 className="text-center text-[#063936] uppercase text-[24px] mini:text-[28px] md:text-[40px] font-[900]">Welcome to the GAIA</h2>
             <div className="mt-4 md:mt-12 md:flex gap-x-8 items-center">
                 <div className="md:w-[48%] md:pr-4">
                     <h3 className="max-md:text-center text-[#063936] uppercase font-[900] text-[20px] md:text-2xl">What we do</h3>
@@ -31,7 +31,7 @@ export function Welcome() {
                     </a>
                 </div>
                 <div className="md:w-[52%] max-md:mt-8">
-                    <img src={industry} className="md:h-[291px] lmd:h-auto rounded-3xl md:rounded-4xl w-full object-cover" alt="industry" />
+                    <img src={industry} className="h-[80vh] rounded-3xl md:rounded-4xl w-full object-cover" alt="industry" />
                 </div>
             </div>
         </section>

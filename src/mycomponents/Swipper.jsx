@@ -41,7 +41,7 @@ export function Carousel() {
                 slidesPerGroup={2}
                 loop={true}
                 breakpoints={{
-                    450: {
+                    290: {
                         slidesPerView: 2,
                         spaceBetween: 20,
                     },

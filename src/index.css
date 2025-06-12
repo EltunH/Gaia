@@ -12,3 +12,12 @@
     --breakpoint-xls: 1200px;
     --breakpoint-xl: 1280px;
 }
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url("./assets/buta.png");
+    opacity: 0.05;
+    z-index: -1;
+}
