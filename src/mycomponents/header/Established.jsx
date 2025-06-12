@@ -17,7 +17,7 @@ export function Established() {
             className="opacity-0 transition-all duration-600 ease-in-out">
             <div className="max-w-[1240px] relative mx-auto pt-[48px] md:pt-[56px] max-mini:px-4 px-6">
                 <div>
-                    <h1 className="text-[#fff7e1] leading-[1.115em] text-center text-[30px] md:text-[48px] mb-2 lmd:text-[56px] font-[900] uppercase">GAIA Established in 2021 <br className="max-[450px]:hidden" /> in Azerbaijan</h1>
+                    <h1 className="text-[#fff7e1] leading-[1.115em] text-center text-[30px] md:text-[48px] mb-2 lmd:text-[56px] font-[900] uppercase">ELTUN <br className="max-[450px]:hidden" /> in Azerbaijan</h1>
                     <p className="text-[#e0e1cc] text-center text-[16px] md:text-[18px] font-medium">Our goal then and now is to provide quality on time projects</p>
                 </div>
                 <div className="grid place-items-center mt-4 md:mt-6">
