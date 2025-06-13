@@ -103,19 +103,20 @@ export function Header() {
                 </div>
                 <div className="max-mini:px-4 px-6">
                     <div className={`relative ${flag ? 'top-0' : 'top-[-1000px]'} lmd:hidden transition-all z-10 duration-500 ease-in-out`}>
-                        <div className="absolute w-full mt-6 p-[24px_24px_32px] bg-white rounded-2xl">                            <menu className=" flex flex-col items-start gap-4 text-[16px] uppercase font-[900] text-currColor">
-                            {menuArr.map((item, i) => (
-                                <li key={i} onClick={() => handleMenuClick(item)} className="text-nowrap cursor-pointer hover:text-[#3fb33d] transition-all duration-300">{item}</li>
-                            ))}
-                            <li>
-                                <a href="tel:+994555555555" className="uppercase h-[57px] group gap-4 flex items-center md:hidden cursor-pointer hover:scale-[.95] pl-4 pr-2 rounded-full text-[14px] font-[900] bg-[#3fb33d] text-currColor max-lmd:mr-4 transition-all duration-300">
-                                    <span className="text-nowrap">Support our case</span>
-                                    <div className="w-[40px] h-[40px] group-hover:bg-[#0f623a] text-white group-hover:rotate-[-45deg] group-hover:scale-[.95] rounded-full grid place-items-center bg-currColor transition-all duration-300">
-                                        <FiArrowRight />
-                                    </div>
-                                </a>
-                            </li>
-                        </menu>
+                        <div className="absolute w-full mt-6 p-[24px_24px_32px] bg-white rounded-2xl">
+                            <menu className=" flex flex-col items-start gap-4 text-[16px] uppercase font-[900] text-currColor">
+                                {menuArr.map((item, i) => (
+                                    <li key={i} onClick={() => handleMenuClick(item)} className="text-nowrap cursor-pointer hover:text-[#3fb33d] transition-all duration-300">{item}</li>
+                                ))}
+                                <li>
+                                    <a href="tel:+994555555555" className="uppercase h-[57px] group gap-4 flex items-center md:hidden cursor-pointer hover:scale-[.95] pl-4 pr-2 rounded-full text-[14px] font-[900] bg-[#3fb33d] text-currColor transition-all duration-300">
+                                        <span className="text-nowrap">Support our case</span>
+                                        <div className="w-[40px] h-[40px] group-hover:bg-[#0f623a] text-white group-hover:rotate-[-45deg] group-hover:scale-[.95] rounded-full grid place-items-center bg-currColor transition-all duration-300">
+                                            <FiArrowRight />
+                                        </div>
+                                    </a>
+                                </li>
+                            </menu>
                         </div>
                     </div>
                 </div>
