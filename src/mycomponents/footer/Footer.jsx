@@ -31,13 +31,13 @@ export function Footer() {
                     <div className="md:w-[26%] md:pl-5 ">
                         <p className="max-md:text-center text-[#fff7e1] max-md:mt-8 font-bold text-[18px]">Contact Details</p>
                         <p className="max-md:text-center text-[#fff7e1] mt-3">
-                            <a href="#" className="underline">Baku</a>
+                            <a href="#" className="underline hover:no-underline">Baku</a>
                         </p>
                         <p className="max-md:text-center text-[#fff7e1] mt-3">
-                            <a href="tel:+994518808988" className="underline">+994 (51) 880 89 88</a>
+                            <a href="tel:+994518808988" className="underline hover:no-underline">+994 (51) 880 89 88</a>
                         </p>
                         <p className="max-md:text-center text-[#fff7e1] mt-3">
-                            <a href="mailto:office@gaia.az" className="underline">office@gaia.az</a>
+                            <a href="mailto:office@gaia.az" className="underline hover:no-underline">office@gaia.az</a>
                         </p>
                     </div>
                     <div className="md:w-[33%] max-md:mt-5">
