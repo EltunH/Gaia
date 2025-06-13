@@ -1,3 +1,5 @@
+import { About } from "./About";
+import { Achievements } from "./Achievements";
 import { Clients } from "./Clients";
 import { Gas } from "./Gas";
 import { OurProjects } from "./OurProjects";
@@ -13,10 +15,12 @@ export function Main() {
             <Welcome />
             <Whoare />
             <Services /> 
-            <Gas /> 
+            <Gas />
+            <About />
             <Clients />
             <WhyGaia />
             <OurProjects />
+            <Achievements />
         </main>
     )
 }

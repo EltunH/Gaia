@@ -28,7 +28,7 @@ export function Gas() {
             style={{ transform: 'translateY(50px)' }} className="max-w-[1240px] mx-auto max-mini:px-4 px-6 opacity-0 py-8 transition-all duration-600 ease-in-out">
             <div className="md:flex gap-x-8 items-center">
                 <div className="md:w-[48%] md:order-[2] md:pl-4">
-                    <h3 className="max-md:text-center text-[#063936] uppercase font-[900] text-[20px] md:text-2xl">Our services mainly are forOil & Gas / Construction</h3>
+                    <h3 className="max-md:text-center text-currColor uppercase font-[900] text-[20px] md:text-2xl">Our services mainly are forOil & Gas / Construction</h3>
                     {gasArr.map((service, index) => (
                         <p key={index} className="mt-2 text-[#215546] md:max-w-[500px] font-bold max-md:text-center">{service}</p>))}
                 </div>

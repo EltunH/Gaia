@@ -2,10 +2,11 @@
 @import "tailwindcss";
 
 @theme {
-    --color-prmColor: #063936;
+    --color-currColor: #063936;
     --breakpoint-mini: 480px;
     --breakpoint-sm: 640px;
     --breakpoint-md: 768px;
+    --breakpoint-smd: 850px;
     --breakpoint-lmd: 991px;
     --breakpoint-lg: 1024px;
     --breakpoint-xlg: 1100px;
@@ -21,3 +22,34 @@ body::before {
     opacity: 0.05;
     z-index: -1;
 }
+
+/* Swipper */
+#app {
+    height: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-wrapper {
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+/* ---------------------- */

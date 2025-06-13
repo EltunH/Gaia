@@ -72,27 +72,27 @@ export function Header() {
     };
 
     return (
-        <header className="bg-prmColor rounded-[0_0_24px_24px] md:rounded-[0_0_40px_40px] pb-12 md:pb-[120px] font-[exo]">
+        <header className="bg-currColor rounded-[0_0_24px_24px] md:rounded-[0_0_40px_40px] pb-12 md:pb-[120px] font-[exo]">
             <nav ref={saRef}
                 className="max-w-[1340px] mx-auto opacity-0 transition-all duration-600 ease-in-out">
-                <div className="flex relative bg-prmColor max-mini:px-4 px-6 lmd:pb-6 pt-6 z-50 items-center gap-2 justify-between">
+                <div className="flex relative bg-currColor max-mini:px-4 px-6 lmd:pb-6 pt-6 z-50 items-center gap-2 justify-between">
                     <a href="/index.html">
                         <img src={logo} alt="logo" className="min-w-[56px] max-md:max-w-[56px] md:w-[73px] rounded-full" />
                     </a>
                     <div className="bg-white w-[90%] rounded-[200px] p-[8px_12px] flex gap-x-1 justify-end lmd:justify-between items-center">
-                        <menu className="flex items-center max-lmd:hidden gap-3 lg:gap-4 text-[13px] xlg:text-[14px] xls:text-[16px] uppercase font-[900] text-prmColor">
+                        <menu className="flex items-center max-lmd:hidden gap-3 lg:gap-4 text-[13px] xlg:text-[14px] xls:text-[16px] uppercase font-[900] text-currColor">
                             {menuArr.map((item, i) => (
                                 <li key={i} onClick={() => handleMenuClick(item)} className="text-nowrap cursor-pointer hover:text-[#3fb33d] transition-all duration-300">{item}</li>
                             ))}
                         </menu>
                         <div className="flex items-center justify-between">
-                            <a href="tel:+994555555555" className="uppercase text-[13px] xlg:text-[14px] h-[57px] group gap-4 flex items-center max-md:hidden cursor-pointer hover:scale-[.95] pl-4 pr-2 rounded-full font-[900] bg-[#3fb33d] text-prmColor max-lmd:mr-4 transition-all duration-300">
+                            <a href="tel:+994555555555" className="uppercase text-[13px] xlg:text-[14px] h-[57px] group gap-4 flex items-center max-md:hidden cursor-pointer hover:scale-[.95] pl-4 pr-2 rounded-full font-[900] bg-[#3fb33d] text-currColor max-lmd:mr-4 transition-all duration-300">
                                 <span className="text-nowrap">Support our case</span>
-                                <div className="w-[40px] h-[40px] group-hover:bg-[#0f623a] text-white group-hover:rotate-[-45deg] group-hover:scale-[.95] rounded-full grid place-items-center bg-prmColor transition-all duration-300">
+                                <div className="w-[40px] h-[40px] group-hover:bg-[#0f623a] text-white group-hover:rotate-[-45deg] group-hover:scale-[.95] rounded-full grid place-items-center bg-currColor transition-all duration-300">
                                     <FiArrowRight />
                                 </div>
                             </a>
-                            <div onClick={chngFlag} className={`${flag ? "bg-[#3fb33d]" : "bg-prmColor"} w-[40px] h-[40px] md:w-[48px] md:h-[48px] lmd:hidden rounded-full grid place-items-center cursor-pointer hover:scale-[.95] hover:bg-[#3fb33d] transition-all duration-300`}>
+                            <div onClick={chngFlag} className={`${flag ? "bg-[#3fb33d]" : "bg-currColor"} w-[40px] h-[40px] md:w-[48px] md:h-[48px] lmd:hidden rounded-full grid place-items-center cursor-pointer hover:scale-[.95] hover:bg-[#3fb33d] transition-all duration-300`}>
                                 {
                                     flag ? <IoCloseOutline className="text-white text-[25px] md:text-[28px]" /> :
                                         <RxHamburgerMenu className=" text-white text-[25px] md:text-[28px]" />
@@ -103,14 +103,14 @@ export function Header() {
                 </div>
                 <div className="max-mini:px-4 px-6">
                     <div className={`relative ${flag ? 'top-0' : 'top-[-1000px]'} lmd:hidden transition-all z-10 duration-500 ease-in-out`}>
-                        <div className="absolute w-full mt-6 p-[24px_24px_32px] bg-white rounded-2xl">                            <menu className=" flex flex-col items-start gap-4 text-[16px] uppercase font-[900] text-prmColor">
+                        <div className="absolute w-full mt-6 p-[24px_24px_32px] bg-white rounded-2xl">                            <menu className=" flex flex-col items-start gap-4 text-[16px] uppercase font-[900] text-currColor">
                             {menuArr.map((item, i) => (
                                 <li key={i} onClick={() => handleMenuClick(item)} className="text-nowrap cursor-pointer hover:text-[#3fb33d] transition-all duration-300">{item}</li>
                             ))}
                             <li>
-                                <a href="tel:+994555555555" className="uppercase h-[57px] group gap-4 flex items-center md:hidden cursor-pointer hover:scale-[.95] pl-4 pr-2 rounded-full text-[14px] font-[900] bg-[#3fb33d] text-prmColor max-lmd:mr-4 transition-all duration-300">
+                                <a href="tel:+994555555555" className="uppercase h-[57px] group gap-4 flex items-center md:hidden cursor-pointer hover:scale-[.95] pl-4 pr-2 rounded-full text-[14px] font-[900] bg-[#3fb33d] text-currColor max-lmd:mr-4 transition-all duration-300">
                                     <span className="text-nowrap">Support our case</span>
-                                    <div className="w-[40px] h-[40px] group-hover:bg-[#0f623a] text-white group-hover:rotate-[-45deg] group-hover:scale-[.95] rounded-full grid place-items-center bg-prmColor transition-all duration-300">
+                                    <div className="w-[40px] h-[40px] group-hover:bg-[#0f623a] text-white group-hover:rotate-[-45deg] group-hover:scale-[.95] rounded-full grid place-items-center bg-currColor transition-all duration-300">
                                         <FiArrowRight />
                                     </div>
                                 </a>

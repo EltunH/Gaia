@@ -2,7 +2,7 @@ Sağ və ya solda digər url link verilməlidir.
 
 Mobilde charitable search buttonun altında 2 və 2 olaraq ayrılsın.
 
-Our recent projects qırmızılar yığışdırılsın.
+Our recent projects qırmızılar yığışdırılsın. ++
 
 Gaia logo sol terefdə ++
 
