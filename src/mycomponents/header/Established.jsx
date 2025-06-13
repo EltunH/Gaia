@@ -18,13 +18,13 @@ export function Established() {
             <div className="max-w-[1240px] relative mx-auto pt-[48px] md:pt-[56px] max-mini:px-4 px-6">
                 <div className="relative">
                     <div className=" max-md:flex text-[#fff7e1] md:text-[18px] max-md:pb-5 justify-between md:absolute right-0 top-0">
-                        <div className="flex flex-col gap-y-2">
-                            <a href="#" className="hover:text-[#3fb33d] hover:scale-[.96] transition-all duration-300">Link</a>
-                            <a href="#" className="hover:text-[#3fb33d] hover:scale-[.96] transition-all duration-300">Link</a>
+                        <div className="max-md:w-[50%] max-md:items-center flex flex-col gap-y-2">
+                            <a href="https://www.instagram.com/mr_racabov/" target="_blank" className="hover:text-[#3fb33d] hover:scale-[.96] transition-all duration-300">Link</a>
+                            <a href="https://www.instagram.com/mr_racabov/" target="_blank" className="hover:text-[#3fb33d] hover:scale-[.96] transition-all duration-300">Link</a>
                         </div>
-                        <div className="flex flex-col gap-y-2 md:mt-2">
-                            <a href="#" className="hover:text-[#3fb33d] hover:scale-[.96] transition-all duration-300">Link</a>
-                            <a href="#" className="hover:text-[#3fb33d] hover:scale-[.96] transition-all duration-300">Link</a>
+                        <div className="max-md:w-[50%] max-md:items-center flex flex-col gap-y-2 md:mt-2">
+                            <a href="https://www.instagram.com/mr_racabov/" target="_blank" className="hover:text-[#3fb33d] hover:scale-[.96] transition-all duration-300">Link</a>
+                            <a href="https://www.instagram.com/mr_racabov/" target="_blank" className="hover:text-[#3fb33d] hover:scale-[.96] transition-all duration-300">Link</a>
                         </div>
                     </div>
                     <h1 className="text-[#fff7e1] leading-[1.115em] md:pr-4 smd:pr-0 text-center text-[30px] md:text-[48px] mb-2 lmd:text-[56px] font-[900] uppercase">GAIA Established in 2021 <br className="max-[450px]:hidden" /> in Azerbaijan</h1>
