@@ -26,7 +26,9 @@ export function About() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-12">
                 <div className="text-center">
-                    <img src={quyu} className="mx-auto mb-8 h-[50vh] md:h-[350px] object-cover rounded-2xl" />
+                    <div className='bg-[#eee] rounded-2xl hover:scale-[0.98] shadow-[0_0_15px_black] p-2 mb-8 transition-all duration-300'>
+                        <img src={quyu} className="mx-auto h-[50vh] md:h-[350px] w-full object-cover rounded-2xl" />
+                    </div>
                     <p className="text-currColor">
                         GAIA represents some of the world’s finest Brands in the region and provides a
                         “One Stop Shop” solution in terms of Mechanical, Electrical, Instrumentation ,Civil,
@@ -34,14 +36,18 @@ export function About() {
                     </p>
                 </div>
                 <div className="text-center">
-                    <img src={quyu} className="mx-auto mb-8 h-[50vh] md:h-[350px] object-cover rounded-2xl" />
+                    <div className='bg-[#eee] rounded-2xl hover:scale-[0.98] shadow-[0_0_15px_black] p-2 mb-8 transition-all duration-300'>
+                        <img src={quyu} className="mx-auto h-[50vh] md:h-[350px] w-full object-cover rounded-2xl" />
+                    </div>
                     <p className="text-currColor">
                         GAIA established in 2021 in Azerbaijan with team of professionals to cater to Caspian region.
                         Dedicated professionals to serve our clients
                     </p>
                 </div>
                 <div className="text-center">
-                    <img src={quyu} className="mx-auto mb-8 h-[50vh] md:h-[350px] object-cover rounded-2xl" />
+                    <div className='bg-[#eee] rounded-2xl hover:scale-[0.98] shadow-[0_0_15px_black] p-2 mb-8 transition-all duration-300'>
+                        <img src={quyu} className="mx-auto h-[50vh] md:h-[350px] w-full object-cover rounded-2xl" />
+                    </div>
                     <p className="text-currColor">
                         GAIA strength is our longstanding local presence in the C.Asian markets and understanding
                         of local business customs and practises. GAIA – The Right Partner – Information Management –
@@ -49,7 +55,6 @@ export function About() {
                     </p>
                 </div>
             </div>
-        </section >
-
+        </section>
     )
 }
