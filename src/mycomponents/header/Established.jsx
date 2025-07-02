@@ -6,25 +6,29 @@ export function Established() {
     const saRef = useRef(null);
 
     const data = [
-        {
+        {   
+            id:'gaia',
             title: 'Gaia Azerbaijan',
-            imgUrl: 'Logo_Gaia.png',
+            imgUrl: 'gaia.png',
             description: 'Powering progress with precision. From oil & gas to construction and safety, Gaia delivers smart industrial solutions with global standards and local expertise — your one-stop partner for engineering, inspection, and innovation.',
             link: ''
         },
-        {
+        {   
+            id:'voyage',
             title: 'Gaia Voyage',
             imgUrl: 'gaia_voyage.png',
             description: 'Offers tailor-made tours and premium travel services across Azerbaijan. From cultural escapes to luxury experiences, we deliver personalized, seamless journeys filled with adventure, comfort, and local authenticity.',
             link: 'https://gaiavoyagebaku.com/en'
         },
-        {
+        {   
+            id:'health',
             title: 'Gaia Health',
             imgUrl: 'gaia_health.jpg',
             description: 'Is a nature-based wellness concept offering herbal detox, ancestral healing, and energy-balancing therapies in Azerbaijan. We use no machines or chemicals — only traditional wisdom, breathwork, and natural spaces.',
             link: ''
         },
-        {
+        {   
+            id:'eleven',
             title: 'Ten Eleven Baku',
             imgUrl: 'tenEleven.webp',
             description: 'Feel the rhythm of Baku nights! Colorful cocktails, live music, and an unforgettable atmosphere — where freedom, flavor, and rhythm come together in one vibrant bar and lounge.',
@@ -50,8 +54,8 @@ export function Established() {
                 <div className="flex justify-center flex-wrap gap-x-4 gap-y-8 py-6">
                     {data.map((item, i) => (
                         <article key={i} className="md:w-[45%] rounded-2xl overflow-hidden bg-[#e0e1cc] lg:w-[23%] flex flex-col">
-                            <span className="bg-[#fefaf0]">
-                                <img alt={item.title} className="object-cover aspect-square" src={path + item.imgUrl} />
+                            <span className="bg-[#fffffe] overflow-hidden">
+                                <img alt={item.title} className={`${item.id == 'health' ? 'scale-[1.3]' : ''} w-full object-cover md:aspect-square`} src={path + item.imgUrl} />
                             </span>
                             <div className="flex flex-col flex-1 p-6">
                                 <h3 className="flex-1 text-currColor pb-2 text-lg font-semibold leading-snug">{item.title}</h3>
