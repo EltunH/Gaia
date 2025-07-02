@@ -1,10 +1,4 @@
 import { useEffect, useRef } from "react";
-import prjImg1 from "../../assets/prjImg1.jpg";
-import prjImg2 from "../../assets/prjImg2.jpg";
-import prjImg3 from "../../assets/prjImg3.jpg";
-import prjImg4 from "../../assets/prjImg4.jpg";
-import prjImg5 from "../../assets/prjImg5.jpg";
-import prjImg6 from "../../assets/prjImg6.jpg";
 
 export function OurProjects() {
     const saRef = useRef(null);
@@ -30,28 +24,28 @@ export function OurProjects() {
             </div>
             <div className="lg:flex mt-10">
                 <div className="lg:w-[50%]">
-                    <img src={prjImg1} className="object-cover h-full w-full" alt="photo" />
+                    <img src="../../../public/assets/img/prjImg1.jpg" className="object-cover h-full w-full" alt="photo" />
                 </div>
                 <div className="lg:w-[50%] md:flex">
                     <div className="md:w-[50%]">
-                        <img src={prjImg2} className="object-cover h-full w-full" alt="photo" />
+                        <img src="../../../public/assets/img/prjImg2.jpg" className="object-cover h-full w-full" alt="photo" />
                     </div>
                     <div className="md:w-[50%]">
-                        <img src={prjImg3} className="object-cover h-full w-full" alt="photo" />
+                        <img src="../../../public/assets/img/prjImg3.jpg" className="object-cover h-full w-full" alt="photo" />
                     </div>
                 </div>
             </div>
             <div className="lg:flex">
                 <div className="md:flex lg:w-[50%]">
                     <div className="md:w-[50%]">
-                        <img src={prjImg4} className="object-cover h-full w-full" alt="photo" />
+                        <img src="../../../public/assets/img/prjImg4.jpg" className="object-cover h-full w-full" alt="photo" />
                     </div>
                     <div className="md:w-[50%]">
-                        <img src={prjImg5} className="object-cover h-full w-full" alt="photo" />
+                        <img src="../../../public/assets/img/prjImg5.jpg" className="object-cover h-full w-full" alt="photo" />
                     </div>
                 </div>
                 <div className="lg:w-[50%]">
-                    <img src={prjImg6} className="object-cover h-full w-full" alt="photo" />
+                    <img src="../../../public/assets/img/prjImg6.jpg" className="object-cover h-full w-full" alt="photo" />
                 </div>
             </div>
         </section>

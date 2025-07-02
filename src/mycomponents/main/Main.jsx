@@ -11,7 +11,7 @@ import { WhyGaia } from "./WhyGaia";
 
 export function Main() {
     return (
-        <main className="font-[exo]">
+        <main className="fontFamily">
             <Welcome />
             <Whoare />
             <Services /> 
