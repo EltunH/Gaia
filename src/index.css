@@ -19,7 +19,7 @@ body::before {
     content: "";
     position: fixed;
     inset: 0;
-    background: url("/public/assets/img/buta.png");
+    background: url("/assets/img/buta.png");
     opacity: 0.05;
     z-index: -1;
 }

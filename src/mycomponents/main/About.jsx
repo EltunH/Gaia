@@ -26,7 +26,7 @@ export function About() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-12">
                 <div className="text-center">
                     <div className='bg-[#eee] rounded-2xl hover:scale-[0.98] shadow-[0_0_15px_black] p-2 mb-8 transition-all duration-300'>
-                        <img src="/public/assets/img/quyu.webp" className="mx-auto h-[50vh] md:h-[350px] w-full object-cover rounded-2xl" />
+                        <img src="/assets/img/quyu.webp" className="mx-auto h-[50vh] md:h-[350px] w-full object-cover rounded-2xl" />
                     </div>
                     <p className="text-currColor">
                         GAIA represents some of the world’s finest Brands in the region and provides a
@@ -36,7 +36,7 @@ export function About() {
                 </div>
                 <div className="text-center">
                     <div className='bg-[#eee] rounded-2xl hover:scale-[0.98] shadow-[0_0_15px_black] p-2 mb-8 transition-all duration-300'>
-                        <img src="/public/assets/img/quyu.webp" className="mx-auto h-[50vh] md:h-[350px] w-full object-cover rounded-2xl" />
+                        <img src="/assets/img/quyu.webp" className="mx-auto h-[50vh] md:h-[350px] w-full object-cover rounded-2xl" />
                     </div>
                     <p className="text-currColor">
                         GAIA established in 2021 in Azerbaijan with team of professionals to cater to Caspian region.
@@ -45,7 +45,7 @@ export function About() {
                 </div>
                 <div className="text-center">
                     <div className='bg-[#eee] rounded-2xl hover:scale-[0.98] shadow-[0_0_15px_black] p-2 mb-8 transition-all duration-300'>
-                        <img src="/public/assets/img/quyu.webp" className="mx-auto h-[50vh] md:h-[350px] w-full object-cover rounded-2xl" />
+                        <img src="/assets/img/quyu.webp" className="mx-auto h-[50vh] md:h-[350px] w-full object-cover rounded-2xl" />
                     </div>
                     <p className="text-currColor">
                         GAIA strength is our longstanding local presence in the C.Asian markets and understanding

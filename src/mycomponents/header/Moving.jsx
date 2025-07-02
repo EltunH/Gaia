@@ -21,14 +21,14 @@ export function Moving() {
             <div ref={boxRef} style={{ transform: `translateX(${scrollX}px)`, }} className="flex w-[120%] gap-4 md:gap-6 translate-x-[150px] md:translate-x-[50px]">
                 {imgArr1.map((item, index) => (
                     <div key={index} className="min-w-[150px] w-[25%]">
-                        <img src={`/public/assets/img/${item}.jpg`} alt={`photo-${index}`} className="hover:scale-[.98] transition-all duration-300 cursor-pointer rounded-[8px] w-full h-full lg:h-[400px]" />
+                        <img src={`/assets/img/${item}.jpg`} alt={`photo-${index}`} className="hover:scale-[.98] transition-all duration-300 cursor-pointer rounded-[8px] w-full h-full lg:h-[400px]" />
                     </div>
                 ))}
             </div>
             <div ref={boxRef} style={{ transform: `translateX(${scrollX1}px)`, }} className="w-[120%] flex mt-4 md:mt-6 gap-4 md:gap-6 translate-x-[-400px] mini:translate-x-[-380px] md:translate-x-[-300px]">
                 {imgArr2.reverse().map((item, index) => (
                     <div key={index} className="min-w-[150px] w-[25%]">
-                        <img src={`/public/assets/img/${item}.jpg`} alt={`photo-${index}`} className="hover:scale-[.98] transition-all duration-300 cursor-pointer rounded-[8px] w-full h-full lg:h-[400px]" />
+                        <img src={`/assets/img/${item}.jpg`} alt={`photo-${index}`} className="hover:scale-[.98] transition-all duration-300 cursor-pointer rounded-[8px] w-full h-full lg:h-[400px]" />
                     </div>
                 ))}
             </div>

@@ -29,7 +29,7 @@ export function Carousel() {
             >
                 {Array(26).fill('').map((_, i) => (
                     <SwiperSlide key={i}>
-                        <img src={`/public/assets/img/swp${i + 1}.png`} alt={`swp photo ${i + 1}`} />
+                        <img src={`/assets/img/swp${i + 1}.png`} alt={`swp photo ${i + 1}`} />
                     </SwiperSlide>
                 ))}
             </Swiper>

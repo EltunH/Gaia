@@ -20,7 +20,7 @@ export function Established() {
         },
         {
             title: 'Gaia Health',
-            imgUrl: 'gaia_health.png',
+            imgUrl: 'gaia_health.jpg',
             description: 'Is a nature-based wellness concept offering herbal detox, ancestral healing, and energy-balancing therapies in Azerbaijan. We use no machines or chemicals — only traditional wisdom, breathwork, and natural spaces.',
             link: ''
         },
@@ -31,7 +31,7 @@ export function Established() {
             link: 'https://www.instagram.com/tenelevenbaku/'
         }
     ]
-    const path = '/public/assets/img/'
+    const path = '/assets/img/'
 
     useEffect(() => {
         if (saRef.current) {
@@ -50,11 +50,11 @@ export function Established() {
                 <div className="flex justify-center flex-wrap gap-x-4 gap-y-8 py-6">
                     {data.map((item, i) => (
                         <article key={i} className="md:w-[45%] rounded-2xl overflow-hidden bg-[#e0e1cc] lg:w-[23%] flex flex-col">
-                            <span className="bg-[#faf3e6]">
-                                <img alt={item.title} className="object-cover w-full h-52" src={path + item.imgUrl} />
+                            <span className="bg-[#fefaf0]">
+                                <img alt={item.title} className="object-cover aspect-square" src={path + item.imgUrl} />
                             </span>
                             <div className="flex flex-col flex-1 p-6">
-                                <h3 className="flex-1 pb-2 text-lg font-semibold leading-snug">{item.title}</h3>
+                                <h3 className="flex-1 text-currColor pb-2 text-lg font-semibold leading-snug">{item.title}</h3>
                                 <span className="text-[13px] text-currColor">{item.description.slice(0, 165)}...</span>
                                 {
                                     item.link ?

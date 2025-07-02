@@ -20,7 +20,7 @@ export function Footer() {
                 <div className="md:flex justify-between">
                     <div className="md:w-[40%] md:flex gap-x-7">
                         <a className="max-md:flex justify-center" href="/index.html">
-                            <img src="/public/assets/img/Logo_Gaia.png" alt="logo" className="max-w-[200px] max-h-[200px]" />
+                            <img src="/assets/img/Logo_Gaia.png" alt="logo" className="max-w-[200px] max-h-[200px]" />
                         </a>
                         <div>
                             <p className="max-md:text-center text-[#fff7e1] max-md:mt-10">GAIA established in 2021 in Azerbaijan with team of professionals to cater to Caspian region.</p>

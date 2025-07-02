@@ -39,7 +39,7 @@ export function Whoare() {
                     </ul>
                 </div>
                 <div className="md:w-[52%] order-1 max-md:mt-8">
-                    <img src="/public/assets/img/whoare.jpg" className="h-[80vh] w-full rounded-3xl md:rounded-4xl object-cover" alt="industry" />
+                    <img src="/assets/img/whoare.jpg" className="h-[80vh] w-full rounded-3xl md:rounded-4xl object-cover" alt="industry" />
                 </div>
             </div>
         </section>

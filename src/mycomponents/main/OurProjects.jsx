@@ -24,28 +24,28 @@ export function OurProjects() {
             </div>
             <div className="lg:flex mt-10">
                 <div className="lg:w-[50%]">
-                    <img src="../../../public/assets/img/prjImg1.jpg" className="object-cover h-full w-full" alt="photo" />
+                    <img src="/assets/img/prjImg1.jpg" className="object-cover h-full w-full" alt="photo" />
                 </div>
                 <div className="lg:w-[50%] md:flex">
                     <div className="md:w-[50%]">
-                        <img src="../../../public/assets/img/prjImg2.jpg" className="object-cover h-full w-full" alt="photo" />
+                        <img src="/assets/img/prjImg2.jpg" className="object-cover h-full w-full" alt="photo" />
                     </div>
                     <div className="md:w-[50%]">
-                        <img src="../../../public/assets/img/prjImg3.jpg" className="object-cover h-full w-full" alt="photo" />
+                        <img src="/assets/img/prjImg3.jpg" className="object-cover h-full w-full" alt="photo" />
                     </div>
                 </div>
             </div>
             <div className="lg:flex">
                 <div className="md:flex lg:w-[50%]">
                     <div className="md:w-[50%]">
-                        <img src="../../../public/assets/img/prjImg4.jpg" className="object-cover h-full w-full" alt="photo" />
+                        <img src="/assets/img/prjImg4.jpg" className="object-cover h-full w-full" alt="photo" />
                     </div>
                     <div className="md:w-[50%]">
-                        <img src="../../../public/assets/img/prjImg5.jpg" className="object-cover h-full w-full" alt="photo" />
+                        <img src="/assets/img/prjImg5.jpg" className="object-cover h-full w-full" alt="photo" />
                     </div>
                 </div>
                 <div className="lg:w-[50%]">
-                    <img src="../../../public/assets/img/prjImg6.jpg" className="object-cover h-full w-full" alt="photo" />
+                    <img src="/assets/img/prjImg6.jpg" className="object-cover h-full w-full" alt="photo" />
                 </div>
             </div>
         </section>
