@@ -75,10 +75,10 @@ export function Header() {
             <nav ref={saRef}
                 className="max-w-[1340px] mx-auto opacity-0 transition-all duration-600 ease-in-out">
                 <div className="flex relative bg-currColor max-mini:px-4 px-6 lmd:pb-6 pt-6 z-50 items-center gap-2 justify-between">
-                    <a href="/index.html" className="w-[10%]">
+                    <a href="/index.html" className="">
                         <img src="/assets/img/Logo_Gaia.png" alt="logo" className="min-w-[100px] max-md:max-w-[100px] md:w-[120px] rounded-full" />
                     </a>
-                    <div className="bg-white max-w-[70%] mini:max-w-[75%] md:max-w-[85%] smd:max-w-[90%] w-full max-xls:h-[63px] rounded-[200px] p-[8px_12px] flex gap-x-1 justify-end lmd:justify-between items-center">
+                    <div className="bg-white max-w-[90%]  w-full max-xls:h-[63px] rounded-[200px] p-[8px_12px] flex gap-x-1 justify-end lmd:justify-between items-center">
                         <menu className="flex items-center tracking-[-1px] max-lmd:hidden gap-3 lg:gap-4 text-[12px] xlg:text-[13px] xsm:text-[16px] uppercase font-[900] text-currColor">
                             {menuArr.map((item, i) => (
                                 <li key={i} onClick={() => handleMenuClick(item)} className="text-nowrap cursor-pointer hover:text-[#3fb33d] transition-all duration-300">{item}</li>
