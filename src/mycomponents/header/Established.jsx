@@ -33,6 +33,13 @@ export function Established() {
             imgUrl: 'tenEleven.webp',
             description: 'Feel the rhythm of Baku nights! Colorful cocktails, live music, and an unforgettable atmosphere — where freedom, flavor, and rhythm come together in one vibrant bar and lounge.',
             link: 'https://www.instagram.com/tenelevenbaku/'
+        },
+        {   
+            id:'live',
+            title: 'Nine Lives',
+            imgUrl: 'nine_lives.jpg',
+            description: 'It’s good however I feel, we should have sections of hospitality ( Gaia voyage - Ten11/9 lives and event management), then Oil and Gas ( Gaia.az and Gaia Hazar ), then Health, Auto and Logistics',
+            link: 'https://www.instagram.com/ninelivesbaku/'
         }
     ]
     const path = '/assets/img/'
@@ -53,7 +60,7 @@ export function Established() {
 
                 <div className="flex justify-center flex-wrap gap-x-4 gap-y-8 py-6">
                     {data.map((item, i) => (
-                        <article key={i} className="md:w-[45%] rounded-2xl overflow-hidden bg-[#e0e1cc] lg:w-[23%] flex flex-col">
+                        <article key={i} className="md:w-[45%] rounded-2xl overflow-hidden bg-[#e0e1cc] lg:w-[30%] flex flex-col">
                             <span className="bg-[#fffffe] overflow-hidden">
                                 <img alt={item.title} className={`${item.id == 'health' ? 'scale-[1.3]' : ''} w-full object-cover md:aspect-square`} src={path + item.imgUrl} />
                             </span>
