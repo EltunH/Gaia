@@ -76,7 +76,6 @@ export function Header() {
                 className="max-w-[1340px] mx-auto opacity-0 transition-all duration-600 ease-in-out">
                 <div className="flex relative bg-currColor max-mini:px-4 px-6 lmd:pb-6 pt-6 z-50 items-center gap-2 justify-between">
                     <a href="/index.html">
-                    jhbkjlok;
                         <img src="/assets/img/Logo_Gaia.png" alt="logo" className="min-w-[100px] max-md:max-w-[100px] md:w-[120px] rounded-full" />
                     </a>
                     <div className="bg-white w-full max-xls:h-[63px] rounded-[200px] p-[8px_12px] flex gap-x-1 justify-end lmd:justify-between items-center">
