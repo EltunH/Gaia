@@ -23,7 +23,7 @@ export function Established() {
         {   
             id:'health',
             title: 'Gaia Health',
-            imgUrl: 'gaia_health.jpg',
+            imgUrl: 'gaia_health.png',
             description: 'Is a nature-based wellness concept offering herbal detox, ancestral healing, and energy-balancing therapies in Azerbaijan. We use no machines or chemicals — only traditional wisdom, breathwork, and natural spaces.',
             link: ''
         },
@@ -61,7 +61,7 @@ export function Established() {
                 <div className="flex justify-center flex-wrap gap-x-4 gap-y-8 py-6">
                     {data.map((item, i) => (
                         <article key={i} className="md:w-[45%] rounded-2xl overflow-hidden bg-[#e0e1cc] lg:w-[30%] flex flex-col">
-                            <span className="bg-[#fffffe] overflow-hidden">
+                            <span className="overflow-hidden">
                                 <img alt={item.title} className={`${item.id == 'health' ? 'scale-[1.3]' : ''} w-full object-cover md:aspect-square`} src={path + item.imgUrl} />
                             </span>
                             <div className="flex flex-col flex-1 p-6">
@@ -70,7 +70,7 @@ export function Established() {
                                 {
                                     item.link ?
                                         <a href={item.link} target="_blank" className="bg-currColor max-w-[300px] w-full mx-auto text-center rounded-2xl py-[6px] mt-3 text-[#e0e1cc] hover:scale-[.94] transition-all duration-300">Visit</a> :
-                                        <a className="bg-currColor max-w-[300px] w-full mx-auto cursor-pointer text-center rounded-2xl py-[6px] mt-3 text-[#e0e1cc] hover:scale-[.94] transition-all duration-300">{item.title == 'Gaia Azerbaijan' ? 'Visit' : 'Soon...'}</a>
+                                        <a className={`${item.title == 'Gaia Azerbaijan' ? 'bg-currColor' : 'bg-[#3fb33d]'} max-w-[300px] w-full mx-auto cursor-pointer text-center rounded-2xl py-[6px] mt-3 text-[#e0e1cc] hover:scale-[.94] transition-all duration-300`}>{item.title == 'Gaia Azerbaijan' ? 'Visit' : 'Soon...'}</a>
                                 }
                             </div>
                         </article>
