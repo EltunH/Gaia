@@ -71,8 +71,10 @@ export function Header() {
                     </a>
                     <menu className="flex items-center tracking-[-1px] max-lmd:hidden gap-3 lg:gap-4 text-[13px] xlg:text-[15px] xsm:text-[17px] uppercase font-medium text-white">
                         {menuArr.map((item, i) => (
-                            <li key={i} onClick={() => handleMenuClick(item)} className="text-nowrap cursor-pointer hover:text-[#3fb33d] transition-all duration-300">{item}</li>
-                        ))}
+                            <li key={i} onClick={() => handleMenuClick(item)} className="relative group text-nowrap cursor-pointer hover:text-[#3fb33d] transition-all duration-300">
+                                {item}
+                                <div className="group-hover:w-full group-hover:left-0 left-[50%] w-0 h-[1px] bg-white absolute transition-all duration-300"></div>
+                            </li>))}
                     </menu>
                     <div className="flex items-center justify-between">
                         <a href="tel:+994555555555" className="uppercase text-nowrap tracking-[-1px] text-[13px] h-[40px] group gap-3 flex items-center max-md:hidden cursor-pointer hover:scale-[.95] hover:text-currColor px-4 rounded-full font-medium bg-[#3fb33d] text-white max-lmd:mr-4 transition-all duration-300">
