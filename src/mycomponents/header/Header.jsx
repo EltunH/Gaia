@@ -74,7 +74,8 @@ export function Header() {
                             <li key={i} onClick={() => handleMenuClick(item)} className="relative group text-nowrap cursor-pointer hover:text-[#3fb33d] transition-all duration-300">
                                 {item}
                                 <div className="group-hover:w-full group-hover:left-0 left-[50%] w-0 h-[1px] bg-white absolute transition-all duration-300"></div>
-                            </li>))}
+                            </li>
+                        ))}
                     </menu>
                     <div className="flex items-center justify-between">
                         <a href="tel:+994555555555" className="uppercase text-nowrap tracking-[-1px] text-[13px] h-[40px] group gap-3 flex items-center max-md:hidden cursor-pointer hover:scale-[.95] hover:text-currColor px-4 rounded-full font-medium bg-[#3fb33d] text-white max-lmd:mr-4 transition-all duration-300">
